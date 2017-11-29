@@ -18,6 +18,10 @@
 
 (add-hook 'org-mode-hook 'fill-setup)
 
+;;Prolog-mode
+(autoload 'prolog-mode "prolog" "Major mode for editing Prolog programs." t)
+(add-to-list 'auto-mode-alist '("\\.pl\\'" . prolog-mode))
+
 ;;basics all users should set
 (global-linum-mode t)
 (setq-default c-basic-offset 3)
