@@ -1,0 +1,83 @@
+% Created 2017-11-14 Tue 00:00
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\author{Regina Pogosian}
+\date{\today}
+\title{A Gentle Introduction to Org-mode}
+\hypersetup{
+ pdfauthor={Regina Pogosian},
+ pdftitle={A Gentle Introduction to Org-mode},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 24.5.1 (Org mode 9.1.2)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+\section{Oultiner}
+\label{sec:org98c32ac}
+Text
+\subsection{Sub tree}
+\label{sec:org7e4f614}
+\subsubsection{Sub sub tree}
+\label{sec:org23c9398}
+hi
+\section{Markup}
+\label{sec:org15a849f}
+\textbf{Bold} \emph{italic} \texttt{verbatim} \sout{strikethrough}
+
+\begin{itemize}
+\item bulleted
+\item list
+\item items
+\end{itemize}
+
+Links: C-c C-l to make a link, can link to website or other file
+C-c C-o opens the link
+\href{http://orgmode.org/}{Org-mode}
+
+\href{file:///home/regina/.emacs.d/init.el}{init file
+}
+Tables: Put pipes between stuff, do |-<tab> to the the line between data
+To move rows or columns around, do M-(arrow keys)
+\section{Tables}
+\label{sec:orgac75e87}
+\begin{center}
+\begin{tabular}{rl}
+Some & Data\\
+\hline
+12 & buckle my shoe\\
+34 & shut the door\\
+ & \\
+\end{tabular}
+\end{center}
+
+\section{Export to other formats}
+\label{sec:org70610b5}
+C-c C-e then choose how you want to do it
+
+\section{\LaTeX{} integration}
+\label{sec:org4f14c60}
+\begin{itemize}
+\item Characters: /alpha /rightarrow /beta
+\item \(O(n \log n)\)
+\end{itemize}
+
+\begin{align*}
+3 * 2 + &= 6 + 1 \\
+        &= 7
+\end{align*}
+\end{document}

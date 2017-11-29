@@ -1,0 +1,51 @@
+* Oultiner
+  Text
+** Sub tree
+*** Sub sub tree
+    hi
+* Markup
+  *Bold* /italic/ =verbatim= +strikethrough+
+
+- bulleted
+- list 
+- items
+
+Links: C-c C-l to make a link, can link to website or other file
+C-c C-o opens the link
+[[http://orgmode.org/][Org-mode]]
+
+[[~/.emacs.d/init.el][init file
+]]
+* Tables
+Tables: Put pipes between stuff, do |-<tab> to the the line between data
+To move rows or columns around, do M-(arrow keys)
+| Some | Data           |
+|------+----------------|
+|   12 | buckle my shoe |
+|   34 | shut the door  |
+|      |                |
+
+* Export to other formats 
+C-c C-e then choose how you want to do it
+
+#+Title: A Gentle Introduction to Org-mode
+#+OPTIONS: toc:nil 
+
+* LaTeX integration
+- Characters: /alpha /rightarrow /beta
+- $O(n \log n)$
+
+\begin{align*}
+3 * 2 + &= 6 + 1 \\
+        &= 7
+\end{align*}
+
+* Todo stuff!
+Shift-M-Enter creates a new todo list underneath
+C-c C-t marks TODO to DONE (cycles through states)
+C-c C-d brings up calendar
+C-c C-x C-e archives something when you're done with it
+Shift+arrow keys on the date can change the date
+** TODO cycle through states
+   DEADLINE: <2017-11-14 Tue>
+** TODO explain todo lists

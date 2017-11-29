@@ -1,0 +1,26 @@
+#    -*- mode: org -*-
+
+
+Archived entries from file /home/regina/.emacs.d/test.org
+
+
+* Source code
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2017-11-13 Mon 23:57
+  :ARCHIVE_FILE: ~/.emacs.d/test.org
+  :ARCHIVE_CATEGORY: test
+  :END:
+you can get a source code block if you do <s-<tab>
+C-c ' to write code and then C-c ' to return it into the code block
+#+BEGIN_SRC ruby
+  def fact(n)
+    if n == 0
+      1
+    else
+      n = fact(n-1)
+    end
+  end
+
+  fact(5)
+#+END_SRC
+

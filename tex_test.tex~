@@ -1,0 +1,16 @@
+\documentclass{article}
+
+\title{Test} 
+\author{Regina Pogosian} 
+\date{\today}
+
+\begin{document}
+
+\section{Our first secion}
+This is the body of our first section.
+\section{Second Section}
+This is the body of our second section.
+\section{Third Section}
+This is the body of our third section.
+
+\end{document}
